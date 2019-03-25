@@ -1,0 +1,73 @@
+  .bg-color1{
+        background-color: #10141a;
+        color: #fff;
+    }
+    a.nav-link {
+        color: #fff!important;
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .home{
+        background-image: url("../img/food-bg.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        min-height: 35rem;
+        padding: 13rem 0;
+
+    }
+    .home .info h1{
+        font-family: 'Acme', sans-serif;
+        color:#fff;
+        font-size: 70px;
+    }
+    .home .info p{
+        color: #ffff;
+        font-size: 20px;
+    }
+    .about .garson{
+        width: 100%;
+    }
+    .menux{
+        padding: 10px;
+        border-top: 1px solid;
+        margin-bottom: 7px;
+    }
+    .menu-title{
+        text-align: center;
+        background-image: url(../img/menu-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        margin: 30px 0px;
+    }
+    .contact{
+        background-color:#f1f1f1;
+        margin-top: -25px;
+        padding-top: 25px;
+    }
+    .contact h1{
+        padding: 10px 0;
+        font-family: 'Acme', sans-serif;
+    }
+    .contact p {
+        font-family: 'Open Sans', sans-serif;
+    }
+    .maps{
+        height: 400px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 7800px) {
+        .menu-name {
+            font-size: 17px;
+        }
+        .home .info h1 {
+            font-size: 45px;
+        }
+    }
